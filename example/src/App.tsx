@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplate, { Counter } from 'react-native-module-template'
+import RNCaches, { Counter } from 'react-native-caches'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplate)
+    console.log(RNCaches)
   })
 
   return <Counter />

@@ -1,14 +1,14 @@
 //
-//  RNModuleTemplate.swift
-//  RNModuleTemplate
+//  RNCaches.swift
+//  RNCaches
 //
-//  Copyright © 2021 Alex Demchenko. All rights reserved.
+//  Copyright © 2021 jerloo. All rights reserved.
 //
 
 import Foundation
 
-@objc(RNModuleTemplate)
-class RNModuleTemplate: NSObject {
+@objc(RNCaches)
+class RNCaches: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["count": 1]
