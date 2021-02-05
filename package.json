@@ -2,7 +2,7 @@
   "name": "react-native-caches",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/jerloo/react-native-caches#readme",
+  "homepage": "https://github.com/jerloo/react-native-caches",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "jerloo <jeremaihloo1024@gmail.com>",
