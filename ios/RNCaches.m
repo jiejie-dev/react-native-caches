@@ -14,7 +14,7 @@ RCT_EXPORT_METHOD(getCacheSize:(RCTPromiseResolveBlock)resolve rejecter:(RCTProm
 {
     NSString* fileSize = [self filePath:@"2"];
     NSString* fileSizeName = [self filePath:@"1"];
-    resolve(@[fileSize,fileSizeName]);
+    resolve(@{@"cacheSize":fileSize,@"unit":fileSizeName});
 }
 
 //清除缓存
